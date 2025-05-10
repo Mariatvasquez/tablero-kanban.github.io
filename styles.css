@@ -442,6 +442,23 @@ button#openCreateTaskModal:hover {
     background-color: #2980B9;
 }
 
+.kanban_container {
+  display: flex;
+  flex-direction: column; /* coloca título arriba, imagen abajo */
+  align-items: center;     /* centra horizontalmente */
+  justify-content: center; /* opcional si necesitas centrar verticalmente */
+}
+
+.title_kanban {
+  margin-bottom: 10px; /* espacio entre título e imagen */
+  text-align: center;
+}
+
+.img_kanban {
+  max-width: 100%; /* opcional, para hacerla responsive */
+  height: auto;
+}
+
 /* Resto de tus estilos existentes... */
 
 @media (max-width: 768px) {
